@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
 	# Mensagem
 	n = pynotify.Notification ("REALIZE UMA PAUSA",
-				   "O Pomodoro de " + n + " minutos acabou",
+				   "O Pomodoro de " + str(n) + " minutos acabou",
 				   "notification-display-brightness-off")
 	n.show ()
 	#subprocess.call(['/usr/bin/canberra-gtk-play','--id','bell'])
